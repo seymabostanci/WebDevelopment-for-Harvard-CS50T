@@ -1,0 +1,243 @@
+body{
+  font-size: 20px;
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(248, 238, 230);
+}
+.img{
+  background: url("https://cdn.thomasnet.com/insights-images/embedded-images/1eeb9336-a735-4650-b3b1-ade26d793e45/f21df511-8ee6-4d39-98c9-1db51fc3fee5/FullHD/private-label-candles.jpg") no-repeat center;
+  background-size: cover;
+  height: 610px;
+  position: relative;
+}
+.head{
+ padding: 30px;
+ padding-bottom: 0px !important;
+  width: 100%; 
+  /* margin-bottom: 50px; */
+  overflow: hidden;
+  text-align: center;
+}
+.nav{
+  margin-bottom: 29px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  /* position: absolute; */
+  position: relative;
+}
+.navul{
+  padding-left: 0px !important;
+  padding-inline-start: 0px !important;
+  text-align: center;
+  display: block;
+}
+
+.navli{
+  width: 211px;
+  height: 50px;
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+#about{ 
+ padding-top: 50px;
+ padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  /* font-family: 'Raleway', sans-serif; */
+  text-align: center;
+  background-color: rgb(250, 225, 203);
+}
+.aboutimg{
+  background: url("https://fee.org/media/26184/scentedcandle.jpg?anchor=center&mode=crop&width=1200&rnd=131602403570000000") no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+#products{
+  padding-top: 50px;
+  padding-bottom: 50px;
+   padding-left: 100px;
+   padding-right: 100px;
+   /* font-family: 'Raleway', sans-serif; */
+   text-align: center;
+   background-color: rgb(247, 229, 212);
+}
+
+#contact{
+  text-align: center;
+  padding-top: 50px;
+ padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.contactimg{
+  background: url("https://www.w3schools.com/w3images/map.jpg") no-repeat center;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+}
+.product{
+  max-width: 1200px;
+  margin-top: 25px;
+  padding: 8px 16px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.productitem{
+  padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    text-align: center!important;
+    display: flex, table;
+    font-family: 'Raleway', sans-serif;
+    padding: 8px 10px;
+}
+
+a:link, a:visited, a:active{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(245, 147, 61);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.productimg{
+    background: url("https://fee.org/media/26184/scentedcandle.jpg?anchor=center&mode=crop&width=1200&rnd=131602403570000000") no-repeat center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    width:100%;
+}
+.formsearch{
+  display: flex;
+}
+.search{
+    background-color: white;
+    background-image: url('https://www.w3schools.com/css/searchicon.png');
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid rgb(241, 145, 61);
+    border-radius: 4px;
+    resize: vertical;
+    float: right;
+    margin-right: 5px;
+}
+
+.formsearchbutton{
+    background-color: rgb(241, 145, 61);
+    color: white;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.productbutton{
+  text-align: center !important;
+    background-color: rgb(241, 145, 61);
+    color: white;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input:focus{
+  outline: none !important;
+  border-color: rgb(241, 145, 61);
+  outline-color: rgb(241, 145, 61)!important;
+}
+select:focus{
+  outline: none !important;
+  border-color: rgb(241, 145, 61);
+  outline-color: rgb(241, 145, 61)!important;
+}
+textarea:focus{
+  outline: none !important;
+  border-color: rgb(241, 145, 61);
+  outline-color: rgb(241, 145, 61)!important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.formsubmit {
+  background-color: rgb(241, 145, 61);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.formsubmit :hover {
+  background-color: rgb(241, 145, 61);
+  
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(243, 170, 106);
+  color: white;
+  text-align: right;
+  /* flex-direction: column; */
+  /* background-position: bottom; */
+}
+
+.sociallink:hover , .sociallink:link, .sociallink:visited, .sociallink:active{
+  color: white;
+}
